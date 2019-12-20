@@ -61,10 +61,7 @@ h1{
   clip: rect(0px,6000px,500px,0px);
   transform: translate(-50%, -50%);
   max-width: 100%;
-  background: linear-gradient(#ffffff, #020202, transparent), url("/images/beach.jpg") no-repeat center; 
-  background-size: cover; 
 }
-
 
 .buttons{
   position: absolute;
@@ -109,5 +106,5 @@ h1{
   
 .btn1:hover::before{
   width: 100%;
-  transform: translate(-100px), scaleX(-15deg);
+
   }
