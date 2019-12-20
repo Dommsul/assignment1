@@ -1,9 +1,6 @@
 
 nav {
-  text-align: center;
-  width: 50%;
-  margin: 0 auto;
-  max-width: 960px;
+    margin: 50px 2px;
   }
   
   ul {
@@ -44,67 +41,73 @@ nav {
     color: #333
   }
 
-  button{
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    display: inline-block;
-   }
-   button {
-    background: none;
-    color: #ccc;
-    width: 240px;
-    height: 80px;
-    border: 1px solid #b01bf5;
-    font-size: 18px;
-    border-radius: 4px;
-    transition: .6s;
-    overflow: hidden;
-   }
-   button:focus{
-    outline:none;
-    }
-   button:before{
-       content: '';
-       display: block;
-       position: absolute;
-       background: rgba(255,255,255,.5);
-       width: 60px;
-       height: 100%;
-       left: 0;
-       top: 0;
-       opacity: .5;
-       filter: blur(30px);
-       transform: translateX(-130px) skewX(-15deg);
-   }
-   
-   button:after{
-       content: '';
-       display: block;
-       position: absolute;
-       background: rgba(255,255,255,.2);
-       width: 30px;
-       height: 100%;
-       left: 30px;
-       top: 0;
-       opacity: 0;
-       filter: blur(30px);
-       transform: translate(-100px) scaleX(-15deg);
-   }
-   button:hover {
-       background: #8707ff;
-    cursor:pointer;
-    }
-   
-   button:hover:before {
-      transform: translateX(300px) skewX(-15deg);
-       opacity: .6;
-       transition: .7s;
-   }
-   
-   button:hover:after {
-      transform: translateX(300px) skewX(-15deg);
-       opacity: 1;
-       transition: .7s;
-   }
+h1{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 100;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  color: white;
+}
+
+.background {
+  position: absolute;
+  object-fit: contain;
+  z-index: -2;
+  top: 80%;
+  left: 50%;
+  clip: rect(0px,6000px,500px,0px);
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  background: linear-gradient(#ffffff, #020202, transparent), url("/images/beach.jpg") no-repeat center; 
+  background-size: cover; 
+}
+
+
+.buttons{
+  position: absolute;
+  margin: 0 auto;
+  margin-left: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin-left:10px
+  }
+.btn{
+  position: relative;
+  color: white;
+  font-size: 14px;
+  font-family: "montserrat";
+  text-decoration: none;
+  margin: 30px 0;
+  border: 2px solid #535353;
+  padding: 14px 60px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+  margin-left:10px
+  }
+.btn::before{
+  background: #535353;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.6s ease;
+
+  }
+  
+.btn1::before{
+   width: 0%;
+  height: 100%;
+  
+  }
+  
+.btn1:hover::before{
+  width: 100%;
+  transform: translate(-100px), scaleX(-15deg);
+  }
