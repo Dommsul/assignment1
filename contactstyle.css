@@ -75,6 +75,7 @@ h1{
   transform: translate(-50%,-50%);
   margin-left:10px
   }
+
 .btn{
   position: relative;
   color: white;
@@ -89,6 +90,7 @@ h1{
   transition: 1s all ease;
   margin-left:10px
   }
+
 .btn::before{
   background: #4a4e51;
   content: "";
@@ -98,16 +100,50 @@ h1{
   transform: translate(-50%,-50%);
   z-index: -1;
   transition: all 0.6s ease;
-
   }
   
 .btn1::before{
    width: 0%;
   height: 100%;
-  
   }
   
 .btn1:hover::before{
   width: 100%;
+  }
 
+  @media screen and (max-width: 1050px) {
+    ul {
+        padding: 0px 300px;
+        padding-left: 110px;
+        align-items: center;
+        position: relative;
+    }
+
+    h1{
+      font-size: 20px;
+      top: 35%;
+    }
+
+.btn{
+  display: block;
+  top: 30%;
+}
+
+.buttons{
+  margin-top: 50%;
+
+}
+
+.bar{
+  position: relative;
+  top: 10px;
+}
+
+    .background{
+      height: 70%;
+      width: 100%;
+      object-fit: cover;
+      top: 70%;
+      clip: rect(0px,6000px,600rem,0px);
+    }
   }

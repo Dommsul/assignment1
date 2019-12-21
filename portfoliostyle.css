@@ -146,3 +146,27 @@
         color: #333
       }
     
+ @media screen and (max-width: 1050px) {
+    ul {
+        padding: 0px 300px;
+        padding-left: 50px;
+        margin: 10px;
+        align-items: center;
+    }
+          
+    h1 {
+        font-size: 2.2rem;
+    }
+
+        .container {
+        width: 76rem;
+        margin: 2rem auto;
+        align-items: center;
+    }
+    
+    .gallery{
+        align-items: center;
+        padding-left: 30px;
+    }
+
+      }
