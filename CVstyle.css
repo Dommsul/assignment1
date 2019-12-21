@@ -10,17 +10,18 @@ html, body {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 16px;
   line-height: 1.5em;
 }
 
 .bar{
-  position: absolute;
+  position: relative;
+  margin: 48px;
 }
 
 .bar nav {
-  margin: 10px 2px;
+  margin: 50px 2px;
 }
 
 .bar ul {
@@ -116,7 +117,7 @@ a {
   color: #4a4e51;
   text-transform: uppercase;
   line-height: 1em;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 @media (max-width: 1200px) {
   .profile h1 {
@@ -144,7 +145,7 @@ a {
 }
 .profile .picture-resume {
   width: 220px;
-  height: 220px;
+  height: 233px;
   background-size: cover;
   border-radius: 50%;
   margin-right: 0px;
@@ -245,7 +246,7 @@ a {
   left: 0;
 }
 .profile .st0, .profile .st1 {
-  fill: #ed9ef0;
+  fill: #d9c5ff;
 }
 
 .experience {

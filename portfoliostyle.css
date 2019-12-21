@@ -53,6 +53,7 @@
         transition: .5s ease;
         backface-visibility: hidden;
         object-fit: cover;
+        
     }
     
     .middle {
@@ -88,9 +89,10 @@
     @media (max-width: 500px) {
         .gallery-item,body {
             max-width: 30%;
-            grid-column: 2;
-            font-family: Oswald, sans-serif;
+            grid-column: 3;
+            font-family: 'Quicksand', sans-serif;
             text-align: left;
+            
         }
         div.container, h1 {
             text-align: left;

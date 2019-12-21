@@ -28,6 +28,7 @@
     text-decoration: none;
     color: #ccc;
     font: 25px/1 'Quicksand', Verdana, sans-serif;
+    font-weight: 500;
     text-transform: uppercase;
     transition: all 0.5s ease;
   }
@@ -58,7 +59,7 @@ h1{
   position: absolute;
   object-fit: contain;
   z-index: -2;
-  top: 85%;
+  top: 80%;
   left: 50%;
   clip: rect(0px,6000px,500px,0px);
   transform: translate(-50%, -50%);
@@ -81,7 +82,7 @@ h1{
   font-family: "Quicksand";
   text-decoration: none;
   margin: 30px 0;
-  border: 2px solid #535353;
+  border: 2px solid #4a4e51;
   padding: 14px 60px;
   text-transform: uppercase;
   overflow: hidden;
@@ -89,7 +90,7 @@ h1{
   margin-left:10px
   }
 .btn::before{
-  background: #535353;
+  background: #4a4e51;
   content: "";
   position: absolute;
   top: 50%;
