@@ -150,3 +150,32 @@ h2 {
   font-family: 'Quicksand', sans-serif;
   text-align: center;
 }
+
+@media screen and (max-width: 1050px) {
+  ul {
+      padding: 0px 300px;
+      padding-left: 50px;
+      margin: 10px;
+      align-items: center;
+  }
+
+  h1{
+    font-size: 2rem;
+  }
+
+.bio{
+  font-size: 1.3rem;
+}
+
+  img{
+    width: 70%;
+    height: 60%;
+    margin-left: 60px;
+    top: 40%;
+  }
+.video-bg{
+  height: 100%;
+  object-fit: cover;
+}
+
+}
