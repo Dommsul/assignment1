@@ -150,7 +150,7 @@ h2 {
   font-family: 'Quicksand', sans-serif;
   text-align: center;
 }
-
+/* mobile version media queries */
 @media screen and (max-width: 1050px) {
   ul {
       padding: 0px 300px;

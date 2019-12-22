@@ -1,4 +1,6 @@
 
+  /* Navigation bar code */
+  
   nav {
     margin: 50px 2px;
   }
@@ -43,7 +45,7 @@
   }
 
   
-
+/* Styling for the short paragraph*/
 h1{
   text-align: center;
   font-family: 'Quicksand', sans-serif;
@@ -65,7 +67,7 @@ h1{
   transform: translate(-50%, -50%);
   max-width: 100%;
 }
-
+/* Help with code for animated buttons https://www.youtube.com/watch?v=CMgl_etzlTI&t=2s */ 
 .buttons{
   position: absolute;
   margin: 0 auto;
@@ -111,6 +113,7 @@ h1{
   width: 100%;
   }
 
+  /* media queries make the website responsive so that the website can be viewed on both desktop and mobile devices*/
   @media screen and (max-width: 1050px) {
     ul {
         padding: 0px 300px;
