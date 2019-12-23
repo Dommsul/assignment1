@@ -28,7 +28,6 @@ body {
   overflow: auto;
   list-style-type: none;
   position: relative;
-  margin: 50%px;
   top: -50%;
 }
 
@@ -144,8 +143,8 @@ a {
   }
 }
 .profile .picture-resume { /* profile pic  */
-  width: 220px;
-  height: 233px;
+  width: 210px;
+  height: 214px;
   background-size: cover;
   border-radius: 50%;
   margin-right: 0px;
@@ -511,3 +510,27 @@ a {
   }
 }
 
+i{
+  position: relative;
+  font-size: 20px ;
+  margin: 10px 100px;
+  color: white;
+  top: 10px;
+  left: 0px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  min-height: 100px;
+  color: #9d9d9d;
+  background-color: #222222;
+    position: relative;
+    right: 0;bottom:0;left:0;
+}

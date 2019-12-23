@@ -150,6 +150,28 @@ h2 {
   font-family: 'Quicksand', sans-serif;
   text-align: center;
 }
+
+footer {
+  font-family: 'Quicksand' sans-serif;
+  font-size: 10px;
+  text-align: center;
+  width: 100%;
+  min-height: 50px;
+  color: #9d9d9d;
+  background-color: #3d3e42;
+  position: relative;
+  right: 0;bottom:0;left:0;
+  font-family: 'Quicksand';
+  
+}
+
+p{
+  padding-top: 20px;
+  text-align: center;
+  left: 45%;
+}
+
+
 /* mobile version media queries */
 @media screen and (max-width: 1050px) {
   ul {
@@ -178,4 +200,10 @@ h2 {
   object-fit: cover;
 }
 
+p{
+left: 27%;
+
 }
+
+}
+

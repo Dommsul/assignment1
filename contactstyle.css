@@ -1,6 +1,5 @@
 
   /* Navigation bar code */
-  
   nav {
     margin: 50px 2px;
   }
@@ -9,7 +8,6 @@
     overflow: auto;
     list-style-type: none;
     position: relative;
-    margin: 50%px;
     top: -50%;
   }
  
@@ -50,7 +48,7 @@ h1{
   text-align: center;
   font-family: 'Quicksand', sans-serif;
   font-weight: 100;
-  top: 20%;
+  top: 25%;
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
@@ -61,13 +59,14 @@ h1{
   position: absolute;
   object-fit: contain;
   z-index: -2;
-  top: 80%;
+  top: 40%;
   left: 50%;
-  clip: rect(0px,6000px,500px,0px);
+
   transform: translate(-50%, -50%);
   max-width: 100%;
 }
 /* Help with code for animated buttons https://www.youtube.com/watch?v=CMgl_etzlTI&t=2s */ 
+
 .buttons{
   position: absolute;
   margin: 0 auto;
@@ -81,10 +80,10 @@ h1{
 .btn{
   position: relative;
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Quicksand";
   text-decoration: none;
-  margin: 30px 0;
+  margin: 30px 10px;
   border: 2px solid #4a4e51;
   padding: 14px 60px;
   text-transform: uppercase;
@@ -111,6 +110,24 @@ h1{
   
 .btn1:hover::before{
   width: 100%;
+  }
+
+  footer {
+    font-family: 'Quicksand' sans-serif;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    min-height: 50px;
+    color: #9d9d9d;
+    background-color: #3d3e42;
+    position: absolute;
+    right: 0;bottom:0;left:0;
+    font-family: 'Quicksand';
+    
+  }
+
+  p{
+    padding-top: 10px;
   }
 
   /* media queries make the website responsive so that the website can be viewed on both desktop and mobile devices*/
@@ -149,4 +166,6 @@ h1{
       top: 70%;
       clip: rect(0px,6000px,600rem,0px);
     }
+
+
   }

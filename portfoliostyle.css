@@ -11,9 +11,9 @@
     
     h1 {
         font-size: 3.5rem;
-        font-weight: 10;
+        font-weight: 100;
         text-align: center;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Quicksand', sans-serif;
         color: rgb(110, 110, 110);
     }
     
@@ -112,7 +112,6 @@
         overflow: auto;
         list-style-type: none;
         position: relative;
-        margin: 50%px;
         top: -50%;
       }
      
@@ -169,4 +168,28 @@
         padding-left: 30px;
     }
 
+    footer{
+        top: 100%;
+      }
+
+      }
+
+      footer {
+        font-family: 'Quicksand' sans-serif;
+        font-size: 14px;
+        text-align: center;
+        width: 100%;
+        min-height: 50px;
+        color: #9d9d9d;
+        background-color: #3d3e42;
+        position: relative;
+        right: 0;bottom:0;left:0;
+        font-family: 'Quicksand';
+        
+      }
+      
+      p{
+        padding-top: 20px;
+        text-align: center;
+        left: 45%;
       }
