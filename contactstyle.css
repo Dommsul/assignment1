@@ -90,8 +90,7 @@ h1{
   overflow: hidden;
   transition: 1s all ease;
   margin-left:10px;
-  max-width: 100%;
-  float: none
+
   }
 
 .btn::before{
